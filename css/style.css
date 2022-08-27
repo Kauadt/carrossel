@@ -1,0 +1,50 @@
+body{
+    background: #000000;
+}
+
+
+
+.carrossel{
+    width: 900px;
+    height: 505px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 250px;
+    border-radius: 30px;
+    border: solid #ffffff 3px;;
+}
+
+.carrossel .fotos{
+    width: 2000%;
+    animation: animacao 22s infinite;
+}
+
+.carrossel .fotos img{
+    width: 5%;
+}
+
+
+@keyframes animacao{
+    0%{margin-left: 0%;}
+    5%{margin-left: 0%;}
+    10%{margin-left: -100.34%;}
+    15%{margin-left: -100.34%;}
+    20%{margin-left: -201%;}
+    25%{margin-left: -201%;}
+    30%{margin-left: -301.3%;}
+    35%{margin-left: -301.3%;}
+    40%{margin-left: -402%;}
+    45%{margin-left: -402%;}
+    50%{margin-left: -502.3%;}
+    55%{margin-left: -502.3%;}
+    60%{margin-left: -602.5%;}
+    65%{margin-left: -602.5%;}
+    70%{margin-left: -703%;}
+    75%{margin-left: -703%;}
+    80%{margin-left: -803.5%;}
+    85%{margin-left: -803.5%;}
+    90%{margin-left: -904%;}
+    93%{margin-left: -904%;}
+    96%{margin-left: -1004.2%;}
+    100%{margin-left: -1004.2%;}
+}
